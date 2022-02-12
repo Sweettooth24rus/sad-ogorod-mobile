@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(binding.appBarMain.toolbar);
         binding.appBarMain.fab.setOnClickListener(
                 view -> Snackbar.make(view,
-                        "Replace with your own action", Snackbar.LENGTH_LONG
+                        "Replace with your action", Snackbar.LENGTH_LONG
                 )
                 .setAction("Action", null).show());
         DrawerLayout drawer = binding.drawerLayout;
